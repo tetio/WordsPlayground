@@ -13,6 +13,9 @@
 		BD8DCF882574477B00F3A157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8DCF862574477B00F3A157 /* Main.storyboard */; };
 		BD8DCF8A2574477C00F3A157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8DCF892574477C00F3A157 /* Assets.xcassets */; };
 		BD8DCF8D2574477C00F3A157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8DCF8B2574477C00F3A157 /* LaunchScreen.storyboard */; };
+		BD8DCF9625744BE500F3A157 /* words_alpha.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD8DCF9525744BE500F3A157 /* words_alpha.txt */; };
+		BD8DCF99257451B300F3A157 /* words_1000.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD8DCF98257451B300F3A157 /* words_1000.txt */; };
+		BD8DCF9C2574D43500F3A157 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DCF9B2574D43500F3A157 /* Words.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BD8DCF892574477C00F3A157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8DCF8C2574477C00F3A157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD8DCF8E2574477C00F3A157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8DCF9525744BE500F3A157 /* words_alpha.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words_alpha.txt; sourceTree = "<group>"; };
+		BD8DCF98257451B300F3A157 /* words_1000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words_1000.txt; sourceTree = "<group>"; };
+		BD8DCF9B2574D43500F3A157 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		BD8DCF7F2574477B00F3A157 /* WordsPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				BD8DCF98257451B300F3A157 /* words_1000.txt */,
 				BD8DCF802574477B00F3A157 /* AppDelegate.swift */,
 				BD8DCF822574477B00F3A157 /* SceneDelegate.swift */,
 				BD8DCF842574477B00F3A157 /* ViewController.swift */,
+				BD8DCF9525744BE500F3A157 /* words_alpha.txt */,
 				BD8DCF862574477B00F3A157 /* Main.storyboard */,
 				BD8DCF892574477C00F3A157 /* Assets.xcassets */,
 				BD8DCF8B2574477C00F3A157 /* LaunchScreen.storyboard */,
 				BD8DCF8E2574477C00F3A157 /* Info.plist */,
+				BD8DCF9B2574D43500F3A157 /* Words.swift */,
 			);
 			path = WordsPlayground;
 			sourceTree = "<group>";
@@ -125,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD8DCF8D2574477C00F3A157 /* LaunchScreen.storyboard in Resources */,
+				BD8DCF99257451B300F3A157 /* words_1000.txt in Resources */,
+				BD8DCF9625744BE500F3A157 /* words_alpha.txt in Resources */,
 				BD8DCF8A2574477C00F3A157 /* Assets.xcassets in Resources */,
 				BD8DCF882574477B00F3A157 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD8DCF852574477B00F3A157 /* ViewController.swift in Sources */,
+				BD8DCF9C2574D43500F3A157 /* Words.swift in Sources */,
 				BD8DCF812574477B00F3A157 /* AppDelegate.swift in Sources */,
 				BD8DCF832574477B00F3A157 /* SceneDelegate.swift in Sources */,
 			);
